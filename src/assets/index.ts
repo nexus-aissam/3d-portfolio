@@ -10,6 +10,14 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import preview from "./preview.png";
 import web from "./web.png";
+import api from "./api.png";
+import server from "./server.png";
+import security from "./security.png";
+import performance from "./performance.png";
+import integration from "./integration.png";
+import realtime from "./realtime.png";
+import datamodel from "./datamodel.png";
+import deployment from "./deployment.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,18 +32,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
+import express from "./tech/express.png";
+import socketio from "./tech/socketio.png";
+import agenda from "./tech/agenda.png";
+import nginx from "./tech/nginx.png";
+import pm2 from "./tech/pm2.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import flexiApps from "./company/flexiApps.png";
 
-import project1 from "./projects/project1.png";
-import project2 from "./projects/project2.png";
-import project3 from "./projects/project3.png";
-import project4 from "./projects/project4.png";
-import project5 from "./projects/project5.png";
-import project6 from "./projects/project6.png";
+import eGed2G from "./projects/eGed2G.png";
+import asifFramework from "./projects/asifFramework.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -73,12 +83,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
   user1,
   user2,
   user3,
@@ -86,4 +90,20 @@ export {
   youtube,
   linkedin,
   twitter,
+  api,
+  server,
+  security,
+  performance,
+  integration,
+  realtime,
+  deployment,
+  eGed2G,
+  express,
+  datamodel,
+  socketio,
+  flexiApps,
+  asifFramework,
+  agenda,
+  pm2,
+  nginx,
 };

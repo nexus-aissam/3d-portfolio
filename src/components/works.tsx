@@ -21,6 +21,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   live_site_link,
+  isPrivate,
 }: ProjectCardProps) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
     <Tilt
@@ -38,8 +39,10 @@ const ProjectCard = ({
           alt={name}
           className="w-full h-full object-cover rounded-2xl"
         />
-
-        {/* Live Site */}
+{
+  !isPrivate &&
+  (
+    <> {/* Live Site */}
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(live_site_link, "_blank", "noreferrer")}
@@ -67,7 +70,9 @@ const ProjectCard = ({
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
-        </div>
+        </div></>
+  )}
+       
       </div>
 
       {/* Work Info */}
@@ -105,11 +110,16 @@ export const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Following projects showcases my skills and experience through
-            real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos in it. It reflects my
-            ability to solve complex problems, work with different technologies,
-            and manage projects effectively.
+            Over the course of my career, I've contributed to numerous projects, 
+            both professionally and in personal endeavors. While my current role 
+            involves working on confidential projects, the examples showcased here 
+            represent a selection of my personal projects, freelance work, and 
+            open collaborations. These projects highlight my skills in backend 
+            development, particularly my expertise with Node.js and related technologies. 
+            Each project demonstrates my ability to tackle complex problems, implement 
+            efficient solutions, and manage development processes effectively. From 
+            custom frameworks to full-stack applications, this portfolio reflects my 
+            passion for creating robust, scalable, and innovative software solutions.
           </motion.p>
         </div>
 

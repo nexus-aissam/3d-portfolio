@@ -2,33 +2,28 @@
 // ! Don't remove anything from here if not sure
 
 import {
-  mobile,
+  performance,
   backend,
-  creator,
-  web,
+  integration,
+  security,
+  realtime,
+  datamodel,
+  server,
+  api,
+  deployment,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
+  express,
+  agenda,
+  socketio,
+  nginx,
+  pm2,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
+  flexiApps,
+  eGed2G,
+  asifFramework,
   user1,
   user2,
   user3,
@@ -65,33 +60,41 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "API Development",
+    icon: api,
+  },
+  {
+    title: "Server-side Logic",
+    icon: server,
+  },
+  {
+    title: "Authentication & Security",
+    icon: security,
+  },
+  {
+    title: "Real-time Systems",
+    icon: realtime,
+  },
+  {
+    title: "Third-party Integrations",
+    icon: integration,
+  },
+  {
+    title: "Data Modeling & Management",
+    icon: datamodel,
+  },
+  {
+    title: "Deployment & DevOps",
+    icon: deployment,
   },
 ] as const;
 
 // Technologies
 export const TECHNOLOGIES = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -101,95 +104,55 @@ export const TECHNOLOGIES = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
+  },
+  {
+    name: "Express.js",
+    icon: express,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Socket.io",
+    icon: socketio,
   },
   {
-    name: "git",
+    name: "Agenda",
+    icon: agenda,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Nginx",
+    icon: nginx,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "PM2",
+    icon: pm2,
   },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend & Front-end Developer",
+    company_name: "Flexi-apps",
+    icon: flexiApps, // You'll need to import or define this icon
+    iconBg: "#383E56", // You can adjust this color as needed
+    date: "2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining robust backend systems using Node.js, Express, and MongoDB.",
+      "Creating efficient and scalable RESTful APIs to support various application features.",
+      "Building responsive and intuitive admin interfaces using React Admin for efficient data management.",
+      "Implementing authentication and authorization systems to ensure secure access to application resources.",
+      "Collaborating with cross-functional teams to integrate backend services with front-end applications.",
+      "Optimizing database queries and server-side logic for improved application performance.",
+      "Participating in code reviews and contributing to the improvement of development practices.",
     ],
   },
 ] as const;
@@ -225,136 +188,66 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "asif",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A fast and optimized backend framework built with Node.js, leveraging cutting-edge technologies to provide a robust foundation for server-side applications. asif integrates a wide array of powerful tools and libraries, including Express for routing, Socket.IO for real-time communication, Agenda for job scheduling, and more. This comprehensive framework streamlines the development of scalable, high-performance backend systems, offering out-of-the-box solutions for common server-side challenges.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
       {
         name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "socketio",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "agenda",
+        color: "purple-text-gradient",
+      },
     ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    image: asifFramework, // You'll need to import or define this image
+    isPrivate: true,
+    source_code_link: "",
+    live_site_link: "",
   },
   {
-    name: "Travel Advisor",
+    name: "E-ged-2G",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "E-ged-2G is an advanced electronic document management system, built on the robust asif framework. This comprehensive solution streamlines the organization and retrieval of electronic documentation, offering intuitive interfaces for efficient data management and analysis. Leveraging asif's powerful backend capabilities, E-ged-2G delivers high performance, scalability, and real-time features, making it an indispensable tool for modern electronic document workflows in various industries.",
     tags: [
       {
-        name: "react",
+        name: "asif",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "restapi",
         color: "pink-text-gradient",
       },
+      {
+        name: "document-management",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "electronic",
+        color: "purple-text-gradient",
+      },
     ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    image: eGed2G, // You'll need to import or define this image
+    source_code_link: "", // Kept empty as per previous version
+    live_site_link: "https://dev--2g-docs.netlify.app/",
+    isPrivate: false,
   },
 ] as const;
 

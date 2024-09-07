@@ -54,11 +54,24 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          As a professional backend developer, I bring a unique blend of technical 
+          expertise and interpersonal skills to every project. My core competencies 
+          lie in TypeScript and JavaScript, with a strong focus on building robust 
+          server-side applications using Node.js and Express.js. I excel in developing 
+          RESTful APIs, implementing efficient database operations with MongoDB, and 
+          creating secure authentication and authorization systems.
+
+          Beyond my technical skills, I am known for my quick-witted approach to 
+          problem-solving and my ability to thrive in team environments. I take pride 
+          in my responsibility and commitment to projects, ensuring timely delivery 
+          of high-quality solutions. My experience extends to various other technologies 
+          and frameworks within the Node.js ecosystem, allowing me to adapt quickly to 
+          new challenges.
+
+          I'm passionate about leveraging my technical expertise and professional 
+          qualities to create efficient, scalable, and maintainable backend solutions. 
+          Let's collaborate to bring your server-side concepts to life and drive your 
+          projects to success!
         </motion.p>
 
         {/* Service Card */}
