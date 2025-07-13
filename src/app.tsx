@@ -4,11 +4,10 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
+  SEO,
   Tech,
-  Works,
   StarsCanvas,
 } from "./components";
 import Banner from "./components/banner";
@@ -20,6 +19,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <SEO />
       <Banner hide={hide} setHide={setHide} />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">

@@ -15,6 +15,7 @@ import { Hero } from "./hero";
 import { Navbar } from "./navbar";
 import { Tech } from "./tech";
 import { Works } from "./works";
+import SEO from "./seo";
 
 export {
   About,
@@ -26,6 +27,7 @@ export {
   Feedbacks,
   Hero,
   Navbar,
+  SEO,
   StarsCanvas,
   Tech,
   Works,
