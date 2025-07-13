@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- Main Portfolio Page -->
+  <url>
+    <loc>https://aissamirhir.com/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://media.licdn.com/dms/image/v2/D4E03AQEy6cwtNg5_tw/profile-displayphoto-shrink_400_400/B4EZdQx8e1HYAg-/0/1749406960541?e=1758153600&amp;v=beta&amp;t=rMATkOdZ7RJcl3vjfQGSsEI-Knwa5mJ3gxPhEPLPrYc</image:loc>
+      <image:title>Aissam Irhir - Senior Backend Developer</image:title>
+      <image:caption>Professional headshot of Aissam Irhir, Senior Backend Developer and Project Controller at FlexiApps</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Section (if accessible via direct URL) -->
+  <url>
+    <loc>https://aissamirhir.com/#about</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Experience Section -->
+  <url>
+    <loc>https://aissamirhir.com/#work</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://aissamirhir.com/#contact</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Technologies Section -->
+  <url>
+    <loc>https://aissamirhir.com/#tech</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
