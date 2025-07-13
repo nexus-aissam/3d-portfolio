@@ -1,45 +1,46 @@
 {
-  "name": "3d-portfolio",
-  "version": "1.1.4",
+  "name": "aissam-portfolio",
+  "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Aissam Irhir",
+    "email": "aissamirhir@gmail.com",
+    "url": "https://github.com/nexus-aissam"
   },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "description": "Professional 3D Portfolio showcasing Backend Development expertise in Node.js, Express.js, MongoDB, and modern web technologies",
   "keywords": [
     "reactjs",
     "react",
-    "porfolio-app",
+    "portfolio-app",
     "three-js",
+    "backend-developer",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "socketio",
+    "jwt-authentication",
+    "restful-apis",
+    "microservices",
     "modern-ui/ux",
-    "js",
     "javascript",
-    "html",
-    "css",
-    "tailwindcss"
+    "typescript",
+    "tailwindcss",
+    "fullstack-developer",
+    "web-development",
+    "real-time-applications",
+    "database-optimization",
+    "project-management"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/nexus-aissam/aissam-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://aissam-irhir-portfolio.netlify.app/",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/nexus-aissam/aissam-portfolio/issues",
+    "email": "aissamirhir@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "type": "module",
   "scripts": {
     "dev": "vite",

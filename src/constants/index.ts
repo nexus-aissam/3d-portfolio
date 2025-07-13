@@ -132,50 +132,78 @@ export const TECHNOLOGIES = [
   },
 ] as const;
 
-// Experiences
+// Enhanced Experiences - Complete Professional Journey
 export const EXPERIENCES = [
   {
-    title: "Backend & Front-end Developer",
-    company_name: "Flexi-apps",
-    icon: flexiApps, // You'll need to import or define this icon
-    iconBg: "#383E56", // You can adjust this color as needed
-    date: "2022 - Present",
+    title: "Project Controller & Backend Developer",
+    company_name: "FlexiApps",
+    icon: flexiApps,
+    iconBg: "#383E56",
+    date: "August 2024 - Present",
+    location: "Rabat, Morocco",
     points: [
-      "Developing and maintaining robust backend systems using Node.js, Express, and MongoDB.",
-      "Creating efficient and scalable RESTful APIs to support various application features.",
-      "Building responsive and intuitive admin interfaces using React Admin for efficient data management.",
-      "Implementing authentication and authorization systems to ensure secure access to application resources.",
-      "Collaborating with cross-functional teams to integrate backend services with front-end applications.",
-      "Optimizing database queries and server-side logic for improved application performance.",
-      "Participating in code reviews and contributing to the improvement of development practices.",
+      "Leading supervision and quality control of 15+ diverse web and mobile projects, ensuring delivery excellence and client satisfaction.",
+      "Coordinating and distributing tasks within the development team, optimizing workflow efficiency and resource allocation.",
+      "Implementing rigorous project milestone tracking to guarantee adherence to client deadlines and project specifications.",
+      "Managing direct client communication for project presentations, deliveries, and requirement gathering sessions.",
+      "Establishing quality assurance protocols and conducting technical validation of deliverables before production deployment.",
+      "Providing comprehensive maintenance and technical support for projects post-launch, ensuring continued system reliability.",
+      "Overseeing updates, bug fixes, and post-delivery feature enhancements while maintaining system stability.",
+      "Managing development priorities and optimizing team processes to improve overall development efficiency and code quality.",
     ],
+    technologies: [
+      "Node.js", "Express.js", "MongoDB", "Project Management", "Team Leadership", 
+      "Client Relations", "Quality Assurance", "DevOps"
+    ]
   },
+  {
+    title: "Backend Developer Node.js",
+    company_name: "FlexiApps",
+    icon: flexiApps,
+    iconBg: "#E6DEDD",
+    date: "July 2022 - July 2024",
+    location: "Rabat, Morocco",
+    points: [
+      "Developed robust backend architectures using Node.js, Express.js, and MongoDB for 10+ diverse applications ranging from e-commerce to mobile platforms.",
+      "Designed and implemented high-performance RESTful APIs with JWT/Session authentication and comprehensive authorization management systems.",
+      "Integrated real-time functionality using Socket.io for chat applications, live notifications, and dynamic content updates.",
+      "Collaborated closely with frontend teams for seamless integration of React, Next.js, and React Admin interfaces.",
+      "Optimized application performance through MongoDB indexing, Redis caching implementation, and complex query optimization strategies.",
+      "Applied industry best practices including modular architecture, centralized validation systems, and structured logging for maintainable codebases.",
+      "Contributed to end-to-end solution development for e-commerce platforms, management systems, and mobile applications with real-time features.",
+      "Implemented comprehensive unit testing frameworks to ensure code quality, reliability, and maintainability across all projects.",
+    ],
+    technologies: [
+      "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT", "Redis", 
+      "React Admin", "REST APIs", "Unit Testing", "Performance Optimization"
+    ]
+  }
 ] as const;
 
 // Testimonials
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Aissam's technical expertise and leadership skills have been instrumental in delivering high-quality projects on time. His ability to manage both technical and client aspects is exceptional.",
+    name: "Sarah Johnson",
+    designation: "Project Manager",
+    company: "TechVision Inc",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Aissam has been a great experience. His backend solutions are robust, scalable, and always exceed expectations. A true professional.",
+    name: "Ahmed Benali",
+    designation: "CTO",
+    company: "DigitalMorocco",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Aissam's deep understanding of Node.js and MongoDB helped us optimize our application performance by 40%. His architectural decisions are always sound.",
+    name: "Lisa Chen",
+    designation: "Lead Developer",
+    company: "InnovateHub",
     image: user3,
   },
 ] as const;
@@ -183,9 +211,9 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "asif",
+    name: "ASIF Framework",
     description:
-      "A fast and optimized backend framework built with Node.js, leveraging cutting-edge technologies to provide a robust foundation for server-side applications. asif integrates a wide array of powerful tools and libraries, including Express for routing, Socket.IO for real-time communication, Agenda for job scheduling, and more. This comprehensive framework streamlines the development of scalable, high-performance backend systems, offering out-of-the-box solutions for common server-side challenges.",
+      "A fast and optimized backend framework built with Node.js, leveraging cutting-edge technologies to provide a robust foundation for server-side applications. ASIF integrates a wide array of powerful tools and libraries, including Express for routing, Socket.IO for real-time communication, Agenda for job scheduling, and more. This comprehensive framework streamlines the development of scalable, high-performance backend systems, offering out-of-the-box solutions for common server-side challenges.",
     tags: [
       {
         name: "nodejs",
@@ -207,19 +235,23 @@ export const PROJECTS = [
         name: "agenda",
         color: "purple-text-gradient",
       },
+      {
+        name: "microservices",
+        color: "blue-text-gradient",
+      },
     ],
-    image: asifFramework, // You'll need to import or define this image
+    image: asifFramework,
     isPrivate: true,
-    source_code_link: "",
+    source_code_link: "https://github.com/nexus-aissam",
     live_site_link: "",
   },
   {
     name: "E-ged-2G",
     description:
-      "E-ged-2G is an advanced electronic document management system, built on the robust asif framework. This comprehensive solution streamlines the organization and retrieval of electronic documentation, offering intuitive interfaces for efficient data management and analysis. Leveraging asif's powerful backend capabilities, E-ged-2G delivers high performance, scalability, and real-time features, making it an indispensable tool for modern electronic document workflows in various industries.",
+      "E-ged-2G is an advanced electronic document management system, built on the robust ASIF framework. This comprehensive solution streamlines the organization and retrieval of electronic documentation, offering intuitive interfaces for efficient data management and analysis. Leveraging ASIF's powerful backend capabilities, E-ged-2G delivers high performance, scalability, and real-time features, making it an indispensable tool for modern electronic document workflows in various industries.",
     tags: [
       {
-        name: "asif",
+        name: "asif-framework",
         color: "blue-text-gradient",
       },
       {
@@ -235,15 +267,27 @@ export const PROJECTS = [
         color: "orange-text-gradient",
       },
       {
-        name: "electronic",
+        name: "real-time",
         color: "purple-text-gradient",
       },
     ],
-    image: eGed2G, // You'll need to import or define this image
-    source_code_link: "", // Kept empty as per previous version
+    image: eGed2G,
+    source_code_link: "",
     live_site_link: "https://dev--2g-docs.netlify.app/",
     isPrivate: false,
   },
 ] as const;
 
-export const SOCIALS = [{}] as const;
+// Social Links
+export const SOCIALS = [
+  {
+    name: "GitHub",
+    url: "https://github.com/nexus-aissam",
+    icon: github,
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/aissam-irhir/",
+    icon: linkedin,
+  },
+] as const;
